@@ -58,8 +58,12 @@
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+/* @media only screen and (min-width: 992px) {
     .zoomed-img {
-        transform: scale(2) translateX(30%);
+        transform: scale(4) translateX(30%);
     }
+} */
+
+@media only screen and (max-width: 425px){
+    body{overflow-x: hidden;}
 }
