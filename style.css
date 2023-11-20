@@ -1,0 +1,40 @@
+/* google font */
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+
+* {
+    font-family: "Titillium Web", sans-serif;
+    font-size: 18px;
+}
+
+.custom-bg {
+    background-color: #1a187a;
+}
+
+.custom-bg-2 {
+    background-color: rgb(176, 215, 254);
+}
+
+.custom-bg-gradient {
+    background-image: linear-gradient(to bottom right, pink, white, #8f85e3);
+}
+
+.zoomed-img {
+    transform: scale(2.7);
+}
+
+.translate-x-50 {
+    transform: translateX(50%);
+}
+
+.translate-y-15 {
+    transform: translateY(15%);
+}
+
+.translate-y-30 {
+    transform: scale(2) translateY(30%);
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(100%);
+}
