@@ -38,3 +38,8 @@
 .carousel-control-prev {
     filter: invert(100%);
 }
+
+.custom-hw{
+    height: 8rem;
+    width: 10rem;
+}
