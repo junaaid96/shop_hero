@@ -27,21 +27,16 @@
 }
 
 .custom-font {
-    font-family: 'Lilita One', sans-serif;
+    font-family: "Lilita One", sans-serif;
     font-size: 70px;
 }
 
-.zoomed-img {
-    transform: scale(2.7);
-}
-
 .translate-x-50 {
-    transform: translateX(50%);
+    transform: scaleX(-1) translateX(-70%);
 }
 
-.translate-x-30 {
-    transform: scaleX(-1) translateX(-100%);
-    overflow-x: hidden;
+.translate-x-70 {
+    transform: scale(1.5) translateX(70%);
 }
 
 .translate-y-15 {
@@ -60,4 +55,11 @@
 .custom-hw {
     height: 8rem;
     width: 10rem;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .zoomed-img {
+        transform: scale(2) translateX(30%);
+    }
 }
