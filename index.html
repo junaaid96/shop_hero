@@ -1,227 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Shop Hero</title>
-        <!-- bootstrap css -->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-            crossorigin="anonymous"
-        />
-        <!-- local css -->
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <body class="container">
-        <!-- header section -->
-        <header>
-            <!-- navbar  section -->
-            <nav class="navbar navbar-expand-lg custom-bg">
-                <div class="container-fluid">
-                    <img
-                        class="navbar-brand img-fluid"
-                        src="images/logo.png"
-                        alt="logo"
-                        width="250rem"
-                    />
-                    <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent"
-                        aria-controls="navbarSupportedContent"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div
-                        class="collapse navbar-collapse justify-content-around"
-                        id="navbarSupportedContent"
-                    >
-                        <form
-                            class="d-flex justify-content-center align-items-center border border-2 rounded p-1 bg-white my-2"
-                            role="search"
-                        >
-                            <button class="bg-transparent border-0">
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                            </button>
-                            <input
-                                class="form-control me-2 border-0"
-                                type="search"
-                                placeholder="Search"
-                                aria-label="Search"
-                            />
-                        </form>
-                        <ul class="navbar-nav mb-4 mb-lg-0">
-                            <li class="nav-item">
-                                <a
-                                    class="nav-link active text-white"
-                                    aria-current="page"
-                                    href="index.html"
-                                    >Home</a
-                                >
-                            </li>
-                            <li class="nav-item">
-                                <a
-                                    class="nav-link text-white"
-                                    aria-current="page"
-                                    href="#"
-                                    >About</a
-                                >
-                            </li>
-                            <li class="nav-item">
-                                <a
-                                    class="nav-link text-white"
-                                    aria-current="page"
-                                    href="#"
-                                    >Contact Us</a
-                                >
-                            </li>
-                        </ul>
-                        <div class="d-flex gap-3 text-white pb-3 pb-lg-0">
-                            <i class="fa-solid fa-cart-plus fa-lg"></i>
-                            <i class="fa-regular fa-user fa-lg"></i>
-                        </div>
-                    </div>
-                </div>
-            </nav>
 
-            <!-- banner section -->
-            <div id="carouselBanner" class="carousel slide custom-bg-gradient">
-                <div class="carousel-inner p-3">
-                    <div class="carousel-item active">
-                        <div
-                            class="d-flex justify-content-between align-items-center flex-wrap gap-3"
-                        >
-                            <div class="px-5 mx-5">
-                                <p>Pro Beyond</p>
-                                <h1>IPhone 14 Pro</h1>
-                                <p>
-                                    Created to change everything for the better.
-                                    For everyone
-                                </p>
-                                <button
-                                    class="custom-bg px-4 py-2 rounded text-white"
-                                >
-                                    Shop Now
-                                </button>
-                            </div>
-                            <div>
-                                <img
-                                    src="images/iphone_2.png"
-                                    class="w-50 translate-y-30"
-                                    alt="iphone"
-                                />
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="..." />
-                    </div>
-                    <div class="carousel-item">
-                        <img src="..." class="d-block w-100" alt="..." />
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop Hero</title>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <!-- local css -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- header section -->
+    <header>
+        <!-- navbar  section -->
+        <nav class="navbar navbar-expand-lg custom-bg">
+            <div class="container-fluid">
+                <img class="navbar-brand img-fluid" src="images/logo.png" alt="logo" width="250rem" />
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
+                    <form
+                        class="d-flex justify-content-center align-items-center border border-2 rounded p-1 bg-white my-2"
+                        role="search">
+                        <button class="bg-transparent border-0">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                        <input class="form-control me-2 border-0" type="search" placeholder="Search"
+                            aria-label="Search" />
+                    </form>
+                    <ul class="navbar-nav mb-4 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" aria-current="page" href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex gap-3 text-white pb-3 pb-lg-0">
+                        <i class="fa-solid fa-cart-plus fa-lg"></i>
+                        <i class="fa-regular fa-user fa-lg"></i>
                     </div>
                 </div>
-                <button
-                    class="carousel-control-prev"
-                    type="button"
-                    data-bs-target="#carouselBanner"
-                    data-bs-slide="prev"
-                >
-                    <span
-                        class="carousel-control-prev-icon icon-white"
-                        aria-hidden="true"
-                    ></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button
-                    class="carousel-control-next"
-                    type="button"
-                    data-bs-target="#carouselBanner"
-                    data-bs-slide="next"
-                >
-                    <span
-                        class="carousel-control-next-icon"
-                        aria-hidden="true"
-                    ></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
-        </header>
+        </nav>
 
-        <!-- main section -->
-        <main>
-            <!-- product section -->
-            <section class="row m-auto">
-                <div class="col-6 position-relative">
-                    <div class="row p-3 align-items-center">
-                        <div class="col-6">
-                            <img
-                                src="images/ipad.png"
-                                alt="ipad"
-                                class="w-100 translate-y-15"
-                            />
-                        </div>
-                        <div class="col-6">
-                            <h1>iPad 9</h1>
+        <!-- banner section -->
+        <div id="carouselBanner" class="carousel slide custom-bg-gradient">
+            <div class="carousel-inner p-3">
+                <div class="carousel-item active">
+                    <div class="d-flex justify-content-between align-items-center flex-wrap gap-3">
+                        <div class="px-5 mx-5">
+                            <p>Pro Beyond</p>
+                            <h1>IPhone 14 Pro</h1>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Incidunt, nostrum?
+                                Created to change everything for the better.
+                                For everyone
                             </p>
-                        </div>
-                    </div>
-                    <div
-                        class="row p-3 align-items-center position-relative custom-bg-2"
-                    >
-                        <div class="col-6">
-                            <img
-                                src="images/headset.png"
-                                alt="headset"
-                                class="w-25 zoomed-img position-absolute"
-                            />
-                        </div>
-                        <div class="col-6">
-                            <h1>
-                                Apple <br />AirPods <br /><h1 class="fw-bold">Max</h1>
-                            </h1>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Incidunt, nostrum?
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div
-                    class="col-6 d-flex justify-content-center align-items-center bg-body-secondary p-5"
-                >
-                    <div class="row align-items-center">
-                        <div class="col-6">
-                            <h1>
-                                MacBook <br />
-                                <h1 class="fw-bold">Air</h1>
-                            </h1>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Voluptas, temporibus!
-                            </p>
-                            <button
-                                class="custom-bg px-4 py-2 rounded text-white"
-                            >
+                            <button class="custom-bg px-4 py-2 rounded text-white">
                                 Shop Now
                             </button>
                         </div>
-                        <div class="col-6">
-                            <img
-                                src="images/macbook.png"
-                                alt="macbook"
-                                class="w-100 translate-x-50"
-                            />
+                        <div>
+                            <img src="images/iphone_2.png" class="w-50 translate-y-30" alt="iphone" />
                         </div>
                     </div>
                 </div>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="..." />
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselBanner" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon icon-white" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselBanner" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- main section -->
+    <main>
+        <!-- product section -->
+        <section class="row m-auto">
+            <div class="col-6 position-relative">
+                <div class="row p-3 align-items-center">
+                    <div class="col-6">
+                        <img src="images/ipad.png" alt="ipad" class="w-100 translate-y-15" />
+                    </div>
+                    <div class="col-6">
+                        <h1>iPad 9</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Incidunt, nostrum?
+                        </p>
+                    </div>
+                </div>
+                <div class="row p-3 align-items-center position-relative custom-bg-2">
+                    <div class="col-6">
+                        <img src="images/headset.png" alt="headset" class="w-25 zoomed-img position-absolute" />
+                    </div>
+                    <div class="col-6">
+                        <h1>
+                            Apple <br />AirPods <br />
+                            <span class="fw-bold fs-1">Max</span>
+                        </h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Incidunt, nostrum?
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 d-flex justify-content-center align-items-center bg-body-secondary p-5">
+                <div class="row align-items-center">
+                    <div class="col-6">
+                        <h1>
+                            MacBook <br />
+                            <span class="fw-bold fs-1">Air</span>
+                        </h1>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Voluptas, temporibus!
+                        </p>
+                        <button class="custom-bg px-4 py-2 rounded text-white">
+                            Shop Now
+                        </button>
+                    </div>
+                    <div class="col-6">
+                        <img src="images/macbook.png" alt="macbook" class="w-100" />
+                    </div>
+                </div>
+            </div>
             </se>
 
             <!-- category section -->
@@ -260,21 +183,116 @@
                     </div>
                 </div>
             </section>
-        </main>
 
-        <!-- footer section -->
-        <footer></footer>
+            <!-- featured section -->
+            <section class="my-5">
+                <div class="d-flex gap-3">
+                    <div>
+                        <h5>New Arrival</h5>
+                        <hr class="border border-1 border-black mt-0">
+                    </div>
+                    <h5>Bestseller</h5>
+                    <h5>Featured Products</h5>
+                </div>
+                <div class="row justify-content-center gap-3">
+                    <div class="card col-lg-2 col-md-4 col-sm-6 align-items-center text-center p-3">
+                        <img src="images/iphone.png" class="card-img-top w-75" alt="iphone">
+                        <div class="card-body">
+                            <p class="card-text">Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <h5 class="fw-bold fst-italic">$2535</h5>
+                            <a href="#" class="btn btn-dark">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="card col-lg-2 col-md-4 col-sm-6 align-items-center text-center p-3">
+                        <img src="images/camera.png" class="card-img-top w-75" alt="camera">
+                        <div class="card-body">
+                            <p class="card-text">Blackmagic Pocket Cinema Camera 6k</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <h5 class="fw-bold fst-italic">$900</h5>
+                            <a href="#" class="btn btn-dark">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="card col-lg-2 col-md-4 col-sm-6 align-items-center text-center p-3">
+                        <img src="images/watch.png" class="card-img-top w-75" alt="watch">
+                        <div class="card-body">
+                            <p class="card-text">Apple Watch Series 9 GPS 41mm Starlight Aluminium Case</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <h5 class="fw-bold fst-italic">$3995</h5>
+                            <a href="#" class="btn btn-dark">Buy Now</a>
+                        </div>
+                    </div>
+                    <div class="card col-lg-2 col-md-4 col-sm-6 align-items-center text-center p-3">
+                        <img src="images/headset.png" class="card-img-top w-75" alt="headset">
+                        <div class="card-body">
+                            <p class="card-text">AirPods Max Silver</p>
+                        </div>
+                        <div class="card-footer bg-transparent border-0">
+                            <h5 class="fw-bold fst-italic">$549</h5>
+                            <a href="#" class="btn btn-dark">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-        <!-- javascript -->
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-            crossorigin="anonymous"
-        ></script>
-        <!-- fontawesome -->
-        <script
-            src="https://kit.fontawesome.com/9318046c38.js"
-            crossorigin="anonymous"
-        ></script>
-    </body>
+            <!-- sale section -->
+            <section class="container row align-items-center custom-bg-3 p-5 gap-3 justify-content-around text-white">
+                <div class="col-lg-3 col-md-6">
+                    <img src="images/tab.png" alt="tab" class="w-75 translate-middle-x">
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h1 class="custom-font"><span class="custom-text-color custom-font">11.11</span> Sale</sp>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In facere facilis quasi nam ipsam,
+                            repellendus ad dolor cupiditate quisquam quos!
+                        </p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <img src="images/tab_2.png" alt="tab" class="w-75 translate-x-">
+                </div>
+            </section>
+    </main>
+
+    <!-- footer section -->
+    <footer
+        class="bg-dark text-white-50 d-flex flex-lg-row flex-wrap justify-content-around align-items-center p-5 gap-5 flex-column-reverse text-center text-lg-start">
+        <div>
+            <img src="images/logo.png" alt="logo" width="250rem">
+        </div>
+        <div class="d-flex gap-3 align-items-center">
+            <i class="fa-brands fa-facebook-f fa-lg"></i>
+            <i class="fa-brands fa-twitter fa-lg"></i>
+            <i class="fa-brands fa-tiktok fa-lg"></i>
+            <i class="fa-brands fa-instagram fa-lg"></i>
+        </div>
+        <div>
+            <h5 class="fw-bold fst-italic text-secondary">Services</h5>
+            <p>Bonus program</p>
+            <p>Gift cards</p>
+            <p>Credit and payment</p>
+            <p>Service contracts</p>
+            <p>Non-cash account</p>
+            <p>Payment</p>
+        </div>
+        <div>
+            <h5 class="fw-bold fst-italic text-secondary">Assistance to the buyer</h5>
+            <p>Find an order</p>
+            <p>Teams of delivery</p>
+            <p>Exchange and return of goods</p>
+            <p>Guarantee</p>
+            <p>Frequently asked questions</p>
+            <p>Terms of use of the site</p>
+        </div>
+    </footer>
+
+    <!-- javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/9318046c38.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
